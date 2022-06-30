@@ -7,7 +7,7 @@ const reviewmodel = require('./reviewmodle');
 const cors = require('cors');
 const app = express();
 app.use(express.json());
-const connect=mongoose.connect('mongodb+srv://SampathKasoji:Sampath1804@cluster0.hm06n.mongodb.net/?retryWrites=true&w=majority').then(
+const connect=mongoose.connect('mongodb+srv://Username:Password@cluster0.hm06n.mongodb.net/?retryWrites=true&w=majority').then(
     ()=> console.log('DB Connected..!')
 );
 
